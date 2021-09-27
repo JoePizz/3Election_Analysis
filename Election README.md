@@ -4,18 +4,18 @@ The purpose of analyzing the election data is to find out the voter turnout for 
 Compiling this information will allow for current and future candidates as well as the government to see which county's underperformed and which one's excelled in terms of voter turnout. From there they will be able to investigate as to why certain county's outperformed others and be able to adjust their strategy for future elections.
 
 **2. Election-Audit Results:**
-The following information can all be found in the file: election_analysis.txt
+The following information can all be found in the file: [election_analysis.txt] (https://github.com/JoePizz/3Election_Analysis/blob/main/election_analysis.txt)
 - There were 369,711 votes casted in this election.
 County Votes:
-Jefferson: 10.5% (38,855)
-Denver: 82.8% (306,055)
-Arapahoe: 6.7% (24,801)
+-Jefferson: 10.5% (38,855)
+-Denver: 82.8% (306,055)
+-Arapahoe: 6.7% (24,801)
 
 -Denver had the largest number of votes amongst the county's with 306,055
 -This is the breakdown of the candidates results:
-Charles Casper Stockham: 23.0% (85,213)
-Diana DeGette: 73.8% (272,892)
-Raymon Anthony Doane: 3.1% (11,606)
+-Charles Casper Stockham: 23.0% (85,213)
+-Diana DeGette: 73.8% (272,892)
+-Raymon Anthony Doane: 3.1% (11,606)
 
 **3. Election Audit Summary**s
 This code is perfect for summarizing the overall results for any election that you may hold. You can easily refactor the code to read the raw data from other elections. This code is also not constrained to read a specific number of candidates, rows, or counties. Since the code loops through and automatically accounts for all of the different candidate names and county names. The code also allows you to easily draw conclusions from the raw data as it summarized in a txt. file.
